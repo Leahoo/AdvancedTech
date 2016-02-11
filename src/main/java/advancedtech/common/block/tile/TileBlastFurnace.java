@@ -1,10 +1,9 @@
-package modname.common.block.tile;
+package advancedtech.common.block.tile;
 
-import modname.common.reference.Names;
-import modname.common.reference.Reference;
+import advancedtech.common.reference.Names;
+import advancedtech.common.reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockFurnace;
-import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Blocks;

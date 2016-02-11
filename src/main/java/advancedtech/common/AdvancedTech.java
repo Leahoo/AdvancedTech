@@ -1,9 +1,9 @@
-package modname.common;
+package advancedtech.common;
 
-import modname.common.config.ModNameBlocks;
-import modname.common.config.ModNameItems;
-import modname.common.proxy.CommonProxyModName;
-import modname.common.reference.Reference;
+import advancedtech.common.config.AdvancedTechBlocks;
+import advancedtech.common.config.AdvancedTechItems;
+import advancedtech.common.proxy.CommonProxyAdvancedTech;
+import advancedtech.common.reference.Reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -17,13 +17,13 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
  */
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)
-public class ModName {
+public class AdvancedTech {
 
     @Instance(Reference.MOD_ID)
-    public static ModName instance;
+    public static AdvancedTech instance;
 
-    @SidedProxy(clientSide = "modname.client.ClientProxyModName", serverSide = "modname.common.proxy.CommonProxyModName")
-    public static CommonProxyModName proxy;
+    @SidedProxy(clientSide = "advancedtech.client.ClientProxyModName", serverSide = "advancedtech.common.proxy.CommonProxyModName")
+    public static CommonProxyAdvancedTech proxy;
 
     @EventHandler
     public static void preInit(FMLPreInitializationEvent event) {
@@ -32,8 +32,8 @@ public class ModName {
 
     @EventHandler
     public static void init(FMLInitializationEvent event) {
-        ModNameItems.registerItems();
-        ModNameBlocks.registerBlocks();
+        AdvancedTechItems.registerItems();
+        AdvancedTechBlocks.registerBlocks();
     }
 
     @EventHandler

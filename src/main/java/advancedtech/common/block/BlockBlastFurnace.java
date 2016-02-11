@@ -1,7 +1,7 @@
-package modname.common.block;
+package advancedtech.common.block;
 
-import modname.common.helper.ISimpleTextureHelper;
-import modname.common.reference.Names;
+import advancedtech.common.helper.ISimpleTextureHelper;
+import advancedtech.common.reference.Names;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.resources.model.ModelResourceLocation;

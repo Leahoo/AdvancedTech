@@ -1,8 +1,7 @@
-package modname.common.item;
+package advancedtech.common.item;
 
-import modname.common.helper.ISimpleTextureHelper;
-import modname.common.reference.Names;
-import modname.common.reference.Reference;
+import advancedtech.common.helper.ISimpleTextureHelper;
+import advancedtech.common.reference.Names;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;

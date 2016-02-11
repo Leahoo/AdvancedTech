@@ -1,14 +1,14 @@
-package modname.common.config;
+package advancedtech.common.config;
 
-import modname.common.block.BlockBlastFurnace;
-import modname.common.reference.Names;
+import advancedtech.common.block.BlockBlastFurnace;
+import advancedtech.common.reference.Names;
 import net.minecraft.block.Block;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
  * Created by justinleahy on 2/10/16.
  */
-public class ModNameBlocks {
+public class AdvancedTechBlocks {
 
     public static Block blastFurnace;
 

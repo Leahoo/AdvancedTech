@@ -152,7 +152,7 @@
 [21:41:58] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
 [21:41:58] [Client thread/DEBUG] [FML/]: Examining file modid-1.0.jar for potential mods
 [21:41:58] [Client thread/TRACE] [FML/]: Located mcmod.info file in file modid-1.0.jar
-[21:41:58] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (modname.common.ModName) - loading
+[21:41:58] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (advancedtech.common.ModName) - loading
 [21:41:58] [Client thread/TRACE] [modName/]: Parsed dependency info : [] [] []
 [21:41:58] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
 [21:41:58] [Client thread/TRACE] [FML/]: Received a system property request ''
@@ -371,18 +371,18 @@ java.net.ConnectException: Connection refused
 [21:42:02] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_1 took 0.000s
 [21:42:02] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0.009s
 [21:42:04] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0.827s
-[21:42:04] [Client thread/DEBUG] [FML/]: Item json isn't found for 'modname:High Quality Steel Ingot#inventory', trying to load the variant from the blockstate json
-[21:42:04] [Client thread/DEBUG] [FML/]: Item json isn't found for 'modname:Low Quality Steel Ingot#inventory', trying to load the variant from the blockstate json
-[21:42:04] [Client thread/DEBUG] [FML/]: Item json isn't found for 'modname:Steel Ingot#inventory', trying to load the variant from the blockstate json
-[21:42:04] [Client thread/DEBUG] [FML/]: Item json isn't found for 'modname:blastFurnace#inventory', trying to load the variant from the blockstate json
+[21:42:04] [Client thread/DEBUG] [FML/]: Item json isn't found for 'advancedtech:High Quality Steel Ingot#inventory', trying to load the variant from the blockstate json
+[21:42:04] [Client thread/DEBUG] [FML/]: Item json isn't found for 'advancedtech:Low Quality Steel Ingot#inventory', trying to load the variant from the blockstate json
+[21:42:04] [Client thread/DEBUG] [FML/]: Item json isn't found for 'advancedtech:Steel Ingot#inventory', trying to load the variant from the blockstate json
+[21:42:04] [Client thread/DEBUG] [FML/]: Item json isn't found for 'advancedtech:blastFurnace#inventory', trying to load the variant from the blockstate json
 [21:42:04] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.243s
 [21:42:04] [Client thread/INFO] [FML/]: Max texture size: 16384
 [21:42:04] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.233s
 [21:42:04] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0.168s
 [21:42:04] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.024s
 [21:42:04] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.046s
-[21:42:04] [Client thread/ERROR] [FML/]: Exception loading model for variant modname:Low Quality Steel Ingot#inventory
-java.lang.Exception: Could not load model definition for variant modname:Low Quality Steel Ingot#inventory
+[21:42:04] [Client thread/ERROR] [FML/]: Exception loading model for variant advancedtech:Low Quality Steel Ingot#inventory
+java.lang.Exception: Could not load model definition for variant advancedtech:Low Quality Steel Ingot#inventory
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:219) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItems(ModelLoader.java:256) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:120) ~[ModelLoader.class:?]
@@ -406,18 +406,18 @@ java.lang.Exception: Could not load model definition for variant modname:Low Qua
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:26) [start/:?]
-Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model modname:blockstates/Low Quality Steel Ingot.json
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model advancedtech:blockstates/Low Quality Steel Ingot.json
 	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:165) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:215) ~[ModelLoader.class:?]
 	... 22 more
-Caused by: java.io.FileNotFoundException: modname:blockstates/Low Quality Steel Ingot.json
+Caused by: java.io.FileNotFoundException: advancedtech:blockstates/Low Quality Steel Ingot.json
 	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:93) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:143) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:215) ~[ModelLoader.class:?]
 	... 22 more
-[21:42:04] [Client thread/ERROR] [FML/]: Exception loading model for variant modname:High Quality Steel Ingot#inventory
-java.lang.Exception: Could not load model definition for variant modname:High Quality Steel Ingot#inventory
+[21:42:04] [Client thread/ERROR] [FML/]: Exception loading model for variant advancedtech:High Quality Steel Ingot#inventory
+java.lang.Exception: Could not load model definition for variant advancedtech:High Quality Steel Ingot#inventory
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:219) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItems(ModelLoader.java:256) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:120) ~[ModelLoader.class:?]
@@ -441,18 +441,18 @@ java.lang.Exception: Could not load model definition for variant modname:High Qu
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:26) [start/:?]
-Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model modname:blockstates/High Quality Steel Ingot.json
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model advancedtech:blockstates/High Quality Steel Ingot.json
 	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:165) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:215) ~[ModelLoader.class:?]
 	... 22 more
-Caused by: java.io.FileNotFoundException: modname:blockstates/High Quality Steel Ingot.json
+Caused by: java.io.FileNotFoundException: advancedtech:blockstates/High Quality Steel Ingot.json
 	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:93) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:143) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:215) ~[ModelLoader.class:?]
 	... 22 more
-[21:42:04] [Client thread/ERROR] [FML/]: Exception loading model for variant modname:blastFurnace#normal
-java.lang.Exception: Could not load model definition for variant modname:blastFurnace#normal
+[21:42:04] [Client thread/ERROR] [FML/]: Exception loading model for variant advancedtech:blastFurnace#normal
+java.lang.Exception: Could not load model definition for variant advancedtech:blastFurnace#normal
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:219) ~[ModelLoader.class:?]
 	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:109) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:174) ~[ModelLoader.class:?]
@@ -477,18 +477,18 @@ java.lang.Exception: Could not load model definition for variant modname:blastFu
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:26) [start/:?]
-Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model modname:blockstates/blastFurnace.json
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model advancedtech:blockstates/blastFurnace.json
 	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:165) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:215) ~[ModelLoader.class:?]
 	... 23 more
-Caused by: java.io.FileNotFoundException: modname:blockstates/blastFurnace.json
+Caused by: java.io.FileNotFoundException: advancedtech:blockstates/blastFurnace.json
 	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:93) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:143) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:215) ~[ModelLoader.class:?]
 	... 23 more
-[21:42:04] [Client thread/ERROR] [FML/]: Exception loading model for variant modname:Steel Ingot#inventory
-java.lang.Exception: Could not load model definition for variant modname:Steel Ingot#inventory
+[21:42:04] [Client thread/ERROR] [FML/]: Exception loading model for variant advancedtech:Steel Ingot#inventory
+java.lang.Exception: Could not load model definition for variant advancedtech:Steel Ingot#inventory
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:219) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItems(ModelLoader.java:256) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:120) ~[ModelLoader.class:?]
@@ -512,17 +512,17 @@ java.lang.Exception: Could not load model definition for variant modname:Steel I
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:26) [start/:?]
-Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model modname:blockstates/Steel Ingot.json
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model advancedtech:blockstates/Steel Ingot.json
 	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:165) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:215) ~[ModelLoader.class:?]
 	... 22 more
-Caused by: java.io.FileNotFoundException: modname:blockstates/Steel Ingot.json
+Caused by: java.io.FileNotFoundException: advancedtech:blockstates/Steel Ingot.json
 	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:93) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:143) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:215) ~[ModelLoader.class:?]
 	... 22 more
-[21:42:04] [Client thread/ERROR] [FML/]: Supressed additional 10 model loading errors for domain modname
+[21:42:04] [Client thread/ERROR] [FML/]: Supressed additional 10 model loading errors for domain advancedtech
 [21:42:04] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 2.252s
 [21:42:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 2.253s
 [21:42:04] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 2.265s

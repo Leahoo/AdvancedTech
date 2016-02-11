@@ -1,4 +1,4 @@
-package modname.common.helper;
+package advancedtech.common.helper;
 
 import net.minecraft.client.resources.model.ModelResourceLocation;
 

@@ -1,4 +1,4 @@
-package modname.common.block.tile;
+package advancedtech.common.block.tile;
 
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.nbt.NBTTagCompound;

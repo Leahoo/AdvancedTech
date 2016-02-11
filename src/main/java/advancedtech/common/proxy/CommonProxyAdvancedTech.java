@@ -1,4 +1,4 @@
-package modname.common.proxy;
+package advancedtech.common.proxy;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 /**
  * Created by justinleahy on 2/10/16.
  */
-public class CommonProxyModName {
+public class CommonProxyAdvancedTech {
     public void registerRenderThings() {}
 
     public void registerRenderInformation() {

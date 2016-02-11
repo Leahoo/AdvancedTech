@@ -1,6 +1,6 @@
-package modname.client;
+package advancedtech.client;
 
-import modname.common.proxy.CommonProxyModName;
+import advancedtech.common.proxy.CommonProxyAdvancedTech;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.RenderItem;
@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
  * Created by justinleahy on 2/10/16.
  */
 
-public class ClientProxyModName extends CommonProxyModName {
+public class ClientProxyAdvancedTech extends CommonProxyAdvancedTech {
     @Override
     public void registerRenderThings() {}
 
@@ -26,7 +26,7 @@ public class ClientProxyModName extends CommonProxyModName {
     @Override
     public void registerBlockTexture(final Block block, final String blockName, int meta) {
         RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
-        renderItem.getItemModelMesher().register(Item.getItemFromBlock(block), meta, new ModelResourceLocation("modName"));
+        renderItem.getItemModelMesher().register(Item.getItemFromBlock(block), meta, new ModelResourceLocation("advancedTech"));
     }
 
     @Override
@@ -37,7 +37,7 @@ public class ClientProxyModName extends CommonProxyModName {
     @Override
     public void registerItemTexture(final Item item, final String itemName, int meta) {
         RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
-        renderItem.getItemModelMesher().register(item, meta, new ModelResourceLocation("modName"));
+        renderItem.getItemModelMesher().register(item, meta, new ModelResourceLocation("advancedTech"));
     }
 
     @Override

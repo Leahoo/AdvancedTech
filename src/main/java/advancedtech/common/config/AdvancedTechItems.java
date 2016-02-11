@@ -1,7 +1,7 @@
-package modname.common.config;
+package advancedtech.common.config;
 
-import modname.common.item.ModItem;
-import modname.common.reference.Names;
+import advancedtech.common.item.ModItem;
+import advancedtech.common.reference.Names;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  * Created by justinleahy on 2/10/16.
  */
 
-public class ModNameItems {
+public class AdvancedTechItems {
 
     public static Item lowSteelIngot;
     public static Item medSteelIngot;
