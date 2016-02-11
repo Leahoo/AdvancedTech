@@ -1,5 +1,8 @@
 item.lowSteelIngot.name=Low Quality Steel Ingot
+tile.lowSteelIngotBlock.name=Low Quality Steel Block
 item.medSteelIngot.name=Steel Ingot
+tile.medSteelIngotBlock.name=Steel Block
 item.highSteelIngot.name=High Quality Steel Ingot
+tile.highSteelIngotBlock.name=High Quality Steel Block
 
 tile.blastFurnace.name=Blast Furnace

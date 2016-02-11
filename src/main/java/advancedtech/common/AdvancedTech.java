@@ -22,7 +22,7 @@ public class AdvancedTech {
     @Instance(Reference.MOD_ID)
     public static AdvancedTech instance;
 
-    @SidedProxy(clientSide = "advancedtech.client.ClientProxyModName", serverSide = "advancedtech.common.proxy.CommonProxyModName")
+    @SidedProxy(clientSide = "advancedtech.client.ClientProxyAdvancedTech", serverSide = "advancedtech.common.proxy.CommonProxyAdvancedTech")
     public static CommonProxyAdvancedTech proxy;
 
     @EventHandler

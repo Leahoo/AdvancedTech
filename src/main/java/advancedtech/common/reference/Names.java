@@ -8,6 +8,11 @@ import net.minecraft.client.resources.model.ModelResourceLocation;
 public class Names {
 
     public static final class Blocks {
+        public static final String LOW_STEEL_INGOT = "lowSteelIngotBlock";
+        public static final String MED_STEEL_INGOT = "medSteelIngotBlock";
+        public static final String HIGH_STEEL_INGOT = "highSteelIngotBlock";
+        public static final String[] INGOT_SUBTYPES = {LOW_STEEL_INGOT, MED_STEEL_INGOT, HIGH_STEEL_INGOT};
+
         public static final String BLAST_FURNACE = "blastFurnace";
     }
 
