@@ -2,6 +2,7 @@ package advancedtech.common;
 
 import advancedtech.common.config.AdvancedTechBlocks;
 import advancedtech.common.config.AdvancedTechItems;
+import advancedtech.common.config.AdvancedTechRecipes;
 import advancedtech.common.proxy.CommonProxyAdvancedTech;
 import advancedtech.common.reference.Reference;
 import net.minecraftforge.fml.common.Mod;
@@ -34,6 +35,7 @@ public class AdvancedTech {
     public static void init(FMLInitializationEvent event) {
         AdvancedTechItems.registerItems();
         AdvancedTechBlocks.registerBlocks();
+        AdvancedTechRecipes.registerRecipes();
     }
 
     @EventHandler

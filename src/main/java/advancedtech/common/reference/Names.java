@@ -21,6 +21,8 @@ public class Names {
         public static final String MED_STEEL_INGOT = "medSteelIngot";
         public static final String HIGH_STEEL_INGOT = "highSteelIngot";
         public static final String[] INGOT_SUBTYPES = {LOW_STEEL_INGOT, MED_STEEL_INGOT, HIGH_STEEL_INGOT};
+
+        public static final String SILICON = "silicon";
     }
 
     public static ModelResourceLocation resourceLocationHelper(String unlocalizedName) {

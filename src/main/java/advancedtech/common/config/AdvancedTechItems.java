@@ -16,6 +16,8 @@ public class AdvancedTechItems {
     public static Item medSteelIngot;
     public static Item highSteelIngot;
 
+    public static Item silicon;
+
     public static void registerItems() {
         //Ingots
         lowSteelIngot = new ModItem().setUnlocalizedName(Names.Items.LOW_STEEL_INGOT);
@@ -32,5 +34,10 @@ public class AdvancedTechItems {
         highSteelIngot.setCreativeTab(CreativeTabs.tabMaterials);
         ((ModItem)highSteelIngot).setDefaultModelLocation();
         GameRegistry.registerItem(highSteelIngot, "High Quality Steel Ingot");
+
+        silicon = new ModItem().setUnlocalizedName(Names.Items.SILICON);
+        silicon.setCreativeTab(CreativeTabs.tabMaterials);
+        ((ModItem)silicon).setDefaultModelLocation();
+        GameRegistry.registerItem(silicon, "Silicon");
     }
 }
