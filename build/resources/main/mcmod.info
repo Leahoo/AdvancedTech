@@ -1,0 +1,16 @@
+[
+{
+  "modid": "modName",
+  "name": "Mod Name",
+  "description": "A mod.",
+  "version": "1.0",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Leahoo"],
+  "credits": "The Forge and FML guys, Pahimar",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
