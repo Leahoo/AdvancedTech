@@ -32,3 +32,17 @@
 /*.iws\
 /atlassian-ide-plugin.xml\
 }
+build
+.gradle
+logs
+eclipse
+.idea
+CREDITS-fml.txt
+LICENSE-fml.txt
+MinecraftForge-Credits.txt
+MinecraftForge-License.txt
+Paulscode IBXM Library License.txt
+Paulscode SoundSystem CodecIBXM License.txt
+README.txt
+Workspace.iml
+forge-1.8.9-11.15.1.1722-changelog.txt
