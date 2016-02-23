@@ -20,8 +20,11 @@ public class Names {
         public static final String LOW_STEEL_INGOT = "lowSteelIngot";
         public static final String MED_STEEL_INGOT = "medSteelIngot";
         public static final String HIGH_STEEL_INGOT = "highSteelIngot";
-        public static final String[] INGOT_SUBTYPES = {LOW_STEEL_INGOT, MED_STEEL_INGOT, HIGH_STEEL_INGOT};
+        public static final String PIG_IRON = "pigIron";
+        public static final String[] INGOT_SUBTYPES = {LOW_STEEL_INGOT, MED_STEEL_INGOT, HIGH_STEEL_INGOT, PIG_IRON};
 
+        public static final String COKE_COAL = "cokeCoal";
+        
         public static final String SILICON = "silicon";
     }
 
