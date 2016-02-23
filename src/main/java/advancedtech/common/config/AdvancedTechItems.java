@@ -15,8 +15,12 @@ public class AdvancedTechItems {
     public static Item lowSteelIngot;
     public static Item medSteelIngot;
     public static Item highSteelIngot;
-
+    
+    public static Item pigIron;
+    
     public static Item silicon;
+    
+    public static Item cokeCoal;
 
     public static void registerItems() {
         //Ingots
@@ -34,10 +38,20 @@ public class AdvancedTechItems {
         highSteelIngot.setCreativeTab(CreativeTabs.tabMaterials);
         ((ModItem)highSteelIngot).setDefaultModelLocation();
         GameRegistry.registerItem(highSteelIngot, "High Quality Steel Ingot");
+        
+        pigIron = new ModItem().setUnlocalizedName(Names.Items.PIG_IRON);
+        pigIron.setCreativeTab(CreativeTabs.tabMaterials);
+        ((ModItem)pigIron).setDefaultModelLocation();
+        GameRegistry.registerItem(pigIron, "Pig Iron");
 
         silicon = new ModItem().setUnlocalizedName(Names.Items.SILICON);
         silicon.setCreativeTab(CreativeTabs.tabMaterials);
         ((ModItem)silicon).setDefaultModelLocation();
         GameRegistry.registerItem(silicon, "Silicon");
+        
+        cokeCoal = new ModItem().setUnlocalizedName(Names.Items.COKE_COAL);
+        cokeCoal.setCreativeTab(CreativeTabs.tabMaterials);
+        ((ModItem)cokeCoal).setDefaultModelLocation();
+        GameRegistry.registerItem(cokeCoal, "Coke Coal");
     }
 }
